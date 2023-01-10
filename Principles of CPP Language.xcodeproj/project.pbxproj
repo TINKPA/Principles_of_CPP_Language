@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C2F3935296DFD16005F2C8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C2F3934296DFD16005F2C8D /* main.cpp */; };
+		6C2F393D296E275A005F2C8D /* macLibs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C2F393B296E275A005F2C8D /* macLibs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		6C2F3931296DFD16005F2C8D /* Principles of CPP Language */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Principles of CPP Language"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2F3934296DFD16005F2C8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6C2F393B296E275A005F2C8D /* macLibs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = macLibs.cpp; sourceTree = "<group>"; };
+		6C2F393C296E275A005F2C8D /* macLibs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = macLibs.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				6C2F3934296DFD16005F2C8D /* main.cpp */,
+				6C2F393B296E275A005F2C8D /* macLibs.cpp */,
+				6C2F393C296E275A005F2C8D /* macLibs.hpp */,
 			);
 			path = "Principles of CPP Language";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C2F3935296DFD16005F2C8D /* main.cpp in Sources */,
+				6C2F393D296E275A005F2C8D /* macLibs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
