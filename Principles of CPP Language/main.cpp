@@ -12,5 +12,9 @@ int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
     std::cout << "Class PIC 10C\n";
     std::cout << "Class PIC 10C\n";
+    int a = 2;
+    int* c = new int(5);
+    int* d = &a;
+    
     return 0;
 }
