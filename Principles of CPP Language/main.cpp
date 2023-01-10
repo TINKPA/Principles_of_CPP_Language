@@ -2,19 +2,30 @@
 //  main.cpp
 //  Principles of CPP Language
 //
-//  Created by Daniel Tang on 1/10/23.
+//
 //
 
-#include <iostream>
+#include <iostream> // config
+#include <cmath>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    std::cout << "Class PIC 10C\n";
-    std::cout << "Class PIC 10C\n";
-    int a = 2;
-    int* c = new int(5);
-    int* d = &a;
+using namespace std;
+
+// we are building a Mab Lib game to learn C++ now
+int main(int argc, const char * argv[])
+{
+    string color, pluralNoun, celebrity;
     
+    cout << "enter a color: ";
+    getline(cin, color);
+    cout << "enter a plural noun: ";
+    getline(cin, pluralNoun);
+    cout << "enter a color: ";
+    getline(cin, celebrity);
+    
+    cout << endl;
+    
+    cout << "Roses are " << color << endl;
+    cout << pluralNoun << " are blue" << endl;
+    cout << "I love " << celebrity << endl;
     return 0;
 }
